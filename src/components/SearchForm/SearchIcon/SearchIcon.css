@@ -1,0 +1,9 @@
+.nav-bar .fa-magnifying-glass {
+    cursor: pointer;
+    transition: color var(--normal-transition);
+}
+
+.nav-bar .fa-magnifying-glass:hover,
+.nav-bar .fa-magnifying-glass:focus {
+    color: var(--primary-color-1);
+}

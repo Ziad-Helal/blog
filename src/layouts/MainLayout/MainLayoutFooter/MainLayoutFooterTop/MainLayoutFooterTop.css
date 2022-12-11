@@ -1,0 +1,20 @@
+.page__footer__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--extra-small-gap);
+    padding-block: var(--small-padding);
+}
+
+.page__footer__top .genre__navigation {
+    display: flex;
+    gap: var(--extra-small-gap);
+}
+
+@media screen and (min-width: 455px) {
+    .page__footer__top {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

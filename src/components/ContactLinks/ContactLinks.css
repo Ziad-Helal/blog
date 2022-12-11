@@ -1,0 +1,13 @@
+.social_links {
+    display: flex;
+    gap: var(--extra-small-gap);
+}
+
+.social_links a {
+    transition: color var(--normal-transition);
+}
+
+.social_links a:hover,
+.social_links a:focus {
+    color: var(--primary-color-1);
+}

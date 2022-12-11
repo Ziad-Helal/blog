@@ -1,0 +1,12 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: var(--extra-small-padding);
+}
+
+.nav-bar > .icons {
+    display: flex;
+    gap: var(--extra-small-gap);
+    align-items: center;
+}

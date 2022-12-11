@@ -1,0 +1,35 @@
+.article__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--extra-small-gap);
+    padding: var(--extra-small-padding);
+    position: relative;
+    transition: font-size var(--normal-transition);
+}
+
+.article__footer > hr {
+    position: absolute;
+    bottom: calc(0% + var(--extra-small-padding) + var(--extra-small-padding) + 0.58em);
+    z-index: -1;
+}
+
+@media screen and (min-width: 455px) {
+    .article__footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 0;
+        font-size: 1.1rem;
+    }
+
+    .article__footer > .social_links {
+        background-color: white;
+        padding-right: var(--extra-small-gap);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .article__footer {
+        font-size: 1.3rem;
+    }
+}

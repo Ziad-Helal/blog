@@ -1,0 +1,24 @@
+.article {
+    padding-block: var(--small-padding);
+}
+
+.article__img,
+.article__teaser {
+    padding-block: var(--extra-small-padding);
+}
+
+.article__teaser {
+    transition: font-size var(--normal-transition);
+}
+
+@media screen and (min-width: 455px) {
+    .article__teaser {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .article__teaser {
+        font-size: 1.3rem;
+    }
+}
