@@ -1,7 +1,7 @@
 .page__header__top {
-    font-size: 0.75rem;
     text-align: center;
     padding-block: var(--small-padding);
+    font-size: 0.9em;
     transition: font-size var(--normal-transition);
 }
 
@@ -15,8 +15,14 @@
     color: var(--primary-color-1);
 }
 
-@media screen and (min-width: 455px) {
+@media screen and (min-width: 900px) {
     .page__header__top {
-        font-size: 1rem;
+        padding-block: var(--medium-padding);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page__header__top p {
+        font-size: 0.9em;
     }
 }

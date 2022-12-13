@@ -1,14 +1,14 @@
 .page__footer__bottom {
-    font-size: 0.75rem;
     text-align: center;
     padding-block: var(--small-padding);
+    font-size: 0.75em;
     transition: font-size var(--normal-transition);
 }
 
 .page__footer__bottom > .logo > a {
-    font-size: 1.5em;
     font-weight: 700;
     transition: color var(--normal-transition);
+    font-size: 1.75em;
 }
 
 .page__footer__bottom > .logo > a:hover,
@@ -16,8 +16,8 @@
     color: var(--primary-color-1);
 }
 
-@media screen and (min-width: 455px) {
+@media screen and (min-width: 900px) {
     .page__footer__bottom {
-        font-size: 0.9rem;
+        padding-block: var(--medium-padding);
     }
 }

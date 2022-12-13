@@ -5,8 +5,8 @@ import "./HomePage.css";
 export default function HomePage() {
     window.scrollTo(0, 0);
     return (
-        <main>
-            <header>
+        <main className="home__page">
+            <header className="home__header">
                 <Slider kind="main" />
             </header>
             <section className="articles__section">

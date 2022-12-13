@@ -5,11 +5,16 @@
     gap: var(--extra-small-gap);
     padding: var(--extra-small-padding);
     text-align: center;
+    font-size: 1.1em;
     transition: font-size var(--normal-transition);
 }
 
 .article__header__genre {
-    font-size: 1.15em;
+    font-size: 1.1em;
+}
+
+.article__header__heading {
+    font-size: 1.25em;
 }
 
 .article__header__heading a,
@@ -23,12 +28,14 @@
 }
 
 .article__header__date_and_comments {
-    font-size: 0.8em;
     display: flex;
-    gap: var(--extra-small-gap);
+    gap: var(--small-gap);
+    font-size: 0.85em;
 }
 
 .article__header__comments {
+    display: flex;
+    gap: var(--extra-small-gap);
     font-weight: 600;
     color: var(--primary-color-1);
     cursor: pointer;
@@ -37,23 +44,4 @@
 .article__header__comments:hover,
 .article__header__comments:focus {
     color: unset;
-}
-
-@media screen and (min-width: 455px) {
-    .article__header {
-        font-size: 1.15rem;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .article__header {
-        font-size: 1.3rem;
-        padding-block: var(--medium-padding);
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .article__header {
-        font-size: 1.55rem;
-    }
 }

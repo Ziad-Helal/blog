@@ -2,6 +2,7 @@ button {
     border: none;
     background-color: unset;
     padding: 0;
+    font-weight: bold;
     cursor: pointer;
     transition: color var(--normal-transition), background-color var(--normal-transition),
         border-color var(--normal-transition);

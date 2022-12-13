@@ -1,3 +1,7 @@
+.about__page {
+    padding-block: var(--medium-padding);
+}
+
 .about__header {
     padding-block: var(--medium-padding);
     text-align: center;

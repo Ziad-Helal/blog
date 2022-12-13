@@ -5,7 +5,7 @@ import "./AboutPage.css";
 export default function AboutPage() {
     window.scrollTo(0, 0);
     return (
-        <main>
+        <main className="about__page">
             <header className="about__header">
                 <h2>About Me</h2>
             </header>

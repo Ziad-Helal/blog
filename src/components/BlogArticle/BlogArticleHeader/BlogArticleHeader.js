@@ -13,7 +13,8 @@ export default function BlogArticleHeader({ genre, heading, date, comments = [] 
             <section className="article__header__date_and_comments">
                 <p className="article__header__date">{date}</p>
                 <p className="article__header__comments" title="Comments">
-                    <i className="fa-regular fa-comments"></i> {comments.length}
+                    <i className="fa-regular fa-comments"></i>
+                    {comments.length}
                 </p>
             </section>
         </header>

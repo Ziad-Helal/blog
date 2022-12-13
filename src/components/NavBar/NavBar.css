@@ -3,10 +3,23 @@
     justify-content: space-between;
     align-items: center;
     padding-block: var(--extra-small-padding);
+    transition: font-size var(--normal-transition);
 }
 
 .nav-bar > .icons {
     display: flex;
     gap: var(--extra-small-gap);
     align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+    .nav-bar {
+        padding-block: var(--small-padding);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-bar {
+        font-size: 0.9em;
+    }
 }

@@ -4,11 +4,19 @@
     align-items: center;
     gap: var(--extra-small-gap);
     padding-block: var(--small-padding);
+    transition: font-size var(--normal-transition);
 }
 
 .page__footer__top .genre__navigation {
     display: flex;
-    gap: var(--extra-small-gap);
+    gap: var(--small-gap);
+}
+
+@media screen and (max-width: 454px) {
+    .page__footer__top .genre__navigation .nav-item a {
+        padding: 0;
+        border-bottom: none;
+    }
 }
 
 @media screen and (min-width: 455px) {
@@ -16,5 +24,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page__footer__top {
+        font-size: 0.9em;
     }
 }

@@ -7,7 +7,6 @@ import SearchForm from "./SearchForm/SearchForm";
 import SearchBar from "./SearchForm/SearchBar/SearchBar";
 import SearchIcon from "./SearchForm/SearchIcon/SearchIcon";
 import ContactLinks from "./ContactLinks/ContactLinks";
-import MainSlider from "./MainSlider/MainSlider";
 import BlogArticle from "./BlogArticle/BlogArticle";
 import BlogArticleHeader from "./BlogArticle/BlogArticleHeader/BlogArticleHeader";
 import BlogArticleFooter from "./BlogArticle/BlogArticleFooter/BlogArticleFooter";
@@ -23,7 +22,6 @@ export {
     SearchBar,
     SearchIcon,
     ContactLinks,
-    MainSlider,
     BlogArticle,
     BlogArticleHeader,
     BlogArticleFooter,

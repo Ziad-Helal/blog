@@ -13,7 +13,7 @@ export default function GenrePage() {
     });
 
     return (
-        <main>
+        <main className="genre__page">
             {articles.map((article) => (
                 <BlogArticle key={article.heading} content={article} />
             ))}

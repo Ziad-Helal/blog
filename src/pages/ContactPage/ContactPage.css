@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: var(--small-padding);
+    padding-block: var(--medium-padding);
     position: relative;
 }
 
 .contact__header > h2 {
-    padding-block: var(--medium-padding);
+    padding-bottom: var(--medium-padding);
     text-align: center;
 }
 
@@ -46,7 +46,7 @@
     width: 100%;
     height: 0.01rem;
     left: 0;
-    bottom: calc(0% + var(--small-padding) + 0.58em);
+    bottom: calc(0% + var(--medium-padding) + 0.58em);
     background-color: var(--secondary-color-3);
     position: absolute;
     z-index: -1;

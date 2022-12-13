@@ -8,17 +8,5 @@
 }
 
 .article__teaser {
-    transition: font-size var(--normal-transition);
-}
-
-@media screen and (min-width: 455px) {
-    .article__teaser {
-        font-size: 1.15rem;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .article__teaser {
-        font-size: 1.3rem;
-    }
+    font-weight: bold;
 }

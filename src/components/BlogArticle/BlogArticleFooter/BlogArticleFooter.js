@@ -7,7 +7,7 @@ export default function BlogArticleFooter({ genre, heading }) {
         <footer className="article__footer">
             <ContactLinks />
             <hr />
-            <Button kind={"secondary"}>
+            <Button kind={"primary"}>
                 <Link to={`/Genre/${genre}/${heading.split(" ").join("_")}`}>Continue Reading</Link>
             </Button>
         </footer>
