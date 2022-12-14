@@ -5,12 +5,14 @@ export default function Button({
     type = "button",
     className,
     kind,
+    title,
     onClick = () => {},
 }) {
     return (
         <button
             type={type}
             className={`button${kind ? `--${kind}` : ""}${className ? ` ${className}` : ""}`}
+            title={title}
             onClick={onClick}
         >
             {children}

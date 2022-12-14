@@ -1,4 +1,4 @@
-import { NavMenu, ContactLinks, SearchIcon } from "../../components";
+import { NavMenu, ContactLinks, SearchForm } from "../../components";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -7,7 +7,7 @@ export default function NavBar() {
             <NavMenu />
             <section className="icons">
                 <ContactLinks />
-                <SearchIcon />
+                <SearchForm />
             </section>
         </section>
     );

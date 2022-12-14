@@ -10,7 +10,7 @@
 }
 
 .article__header__genre {
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
 
 .article__header__heading {
@@ -30,7 +30,7 @@
 .article__header__date_and_comments {
     display: flex;
     gap: var(--small-gap);
-    font-size: 0.85em;
+    font-size: 0.8em;
 }
 
 .article__header__comments {
