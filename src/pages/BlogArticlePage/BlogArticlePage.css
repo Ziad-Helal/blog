@@ -1,0 +1,7 @@
+.article__page {
+    padding-block: var(--medium-padding);
+}
+
+.article__page > .article__body {
+    padding-block: var(--small-padding);
+}

@@ -1,0 +1,12 @@
+.article {
+    padding-block: var(--small-padding);
+}
+
+.article__img,
+.article__teaser {
+    padding-block: var(--extra-small-padding);
+}
+
+.article__teaser {
+    font-weight: bold;
+}
