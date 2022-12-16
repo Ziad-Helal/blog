@@ -1,9 +1,9 @@
 import { Button } from "../../../components";
 import "./SearchBar.css";
 
-export default function SearchBar({ className }) {
+export default function SearchBar({ className, onClose = () => {} }) {
     return (
-        <fieldset className={`search__bar${className ? ` ${className}` : ""}`}>
+        <fieldset className={`search__bar ${className}`}>
             <legend className="screen-readers-only">Search for an Article</legend>
             <label htmlFor="article" className="screen-readers-only">
                 Article Name
@@ -19,7 +19,7 @@ export default function SearchBar({ className }) {
             <Button type="submit" kind="secondary">
                 Search
             </Button>
-            <Button title={"Close"}>
+            <Button title={"Close"} onClick={onClose}>
                 <i className="fa-solid fa-xmark"></i>
             </Button>
         </fieldset>
