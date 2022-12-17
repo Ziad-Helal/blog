@@ -9,7 +9,7 @@
     color: var(--primary-color-1);
 }
 
-@media screen and (min-width: 445px) {
+@media screen and (min-width: 560px) {
     .nav-item .sub_menu {
         display: block;
         visibility: hidden;

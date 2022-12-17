@@ -11,7 +11,7 @@ export default function NavItem({ item, subMenu, footerNav, onItemChoosed }) {
     const [isOpen, setIsOpen] = useState(false);
     const subMenuHandler = (event) => {
         event.preventDefault();
-        if (window.matchMedia("(max-width: 444px)").matches)
+        if (window.matchMedia("(max-width: 559px)").matches)
             isOpen ? setIsOpen(false) : setIsOpen(true);
     };
 

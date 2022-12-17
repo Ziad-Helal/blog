@@ -7,7 +7,7 @@
 }
 
 .contact__header > h2 {
-    padding-bottom: var(--medium-padding);
+    margin-bottom: var(--medium-padding);
     text-align: center;
 }
 

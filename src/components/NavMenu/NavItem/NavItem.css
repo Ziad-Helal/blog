@@ -43,7 +43,7 @@
     transition: background-color var(--normal-transition), rotate var(--normal-transition);
 }
 
-@media screen and (min-width: 445px) {
+@media screen and (min-width: 560px) {
     .nav-item > a {
         padding: 0;
         border-bottom: none;

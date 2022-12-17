@@ -8,7 +8,7 @@ export default function NavSubMenu({ item, subMenu, className, clicked }) {
     return (
         <ul
             className={`sub_menu${
-                window.matchMedia("(max-width: 444px)").matches && className ? className : ""
+                window.matchMedia("(max-width: 559px)").matches && className ? className : ""
             }`}
         >
             {subMenu.map((subItem) => (

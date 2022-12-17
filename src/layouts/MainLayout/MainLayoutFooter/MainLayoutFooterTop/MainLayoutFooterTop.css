@@ -12,7 +12,7 @@
     gap: var(--small-gap);
 }
 
-@media screen and (max-width: 454px) {
+@media screen and (max-width: 559px) {
     .page__footer__top .genre__navigation .nav-item a {
         padding: 0;
         border-bottom: none;

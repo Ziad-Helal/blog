@@ -1,0 +1,29 @@
+.add_article__page {
+    padding-block: var(--medium-padding);
+}
+
+.add_article__header > h2 {
+    margin-bottom: var(--medium-padding);
+    text-align: center;
+}
+
+.add_article__form > fieldset {
+    border: none;
+    padding: 0;
+}
+
+.add_article__form .form__row {
+    padding-bottom: var(--small-padding);
+}
+
+.add_article__form input,
+.add_article__form select,
+.add_article__form textarea {
+    display: block;
+    width: 100%;
+    margin-top: var(--extra-small-padding);
+    border: 0;
+    background-color: var(--primary-color-2);
+    padding-block: var(--extra-small-padding);
+    padding-inline: var(--small-padding);
+}

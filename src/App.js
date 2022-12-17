@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
     HomePage,
+    AddArticlePage,
     AboutPage,
     ContactPage,
     CategoryPage,
@@ -15,6 +16,7 @@ export default function App() {
             <MainLayout>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/Add" element={<AddArticlePage />} />
                     <Route path="/About" element={<AboutPage />} />
                     <Route path="/Contact" element={<ContactPage />} />
                     <Route path="/Genre" element={<CategoryPage />} />

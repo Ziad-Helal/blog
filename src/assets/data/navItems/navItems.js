@@ -4,6 +4,9 @@ export const navItems = [
         subMenu: ["Fashion", "Music", "Looks", "Nature"],
     },
     {
+        item: "Add an Article",
+    },
+    {
         item: "About Me",
     },
     {

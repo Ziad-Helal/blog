@@ -10,7 +10,7 @@ export default function NavMenu() {
     };
 
     const [, setScreenWidth] = useState();
-    const media444Handler = (event) => {
+    const media559Handler = (event) => {
         setScreenWidth(event.matches);
         if (event.matches === false) setIsOpen(false);
     };
@@ -20,16 +20,16 @@ export default function NavMenu() {
     };
 
     useEffect(() => {
-        window.matchMedia("(max-width: 444px)").addEventListener("change", media444Handler);
+        window.matchMedia("(max-width: 559px)").addEventListener("change", media559Handler);
 
         return () => {
-            window.matchMedia("(max-width: 444px)").removeEventListener("change", media444Handler);
+            window.matchMedia("(max-width: 559px)").removeEventListener("change", media559Handler);
         };
     }, []);
 
     return (
         <nav className="website__navigation">
-            {window.matchMedia("(max-width: 444px)").matches && (
+            {window.matchMedia("(max-width: 559px)").matches && (
                 <Button className="open-menu" kind="primary" onClick={clickHandler}>
                     <i className="fa-solid fa-bars"></i>
                     <span className="screen-readers-only">Open Navigation </span>Menu
@@ -38,14 +38,14 @@ export default function NavMenu() {
 
             <ul
                 className={`website__menu${
-                    window.matchMedia("(max-width: 444px)").matches
+                    window.matchMedia("(max-width: 559px)").matches
                         ? isOpen
                             ? " flex"
                             : " hidden"
                         : " flex"
                 }`}
             >
-                {window.matchMedia("(max-width: 444px)").matches && (
+                {window.matchMedia("(max-width: 559px)").matches && (
                     <Button className="close-menu" onClick={clickHandler}>
                         Close
                     </Button>
