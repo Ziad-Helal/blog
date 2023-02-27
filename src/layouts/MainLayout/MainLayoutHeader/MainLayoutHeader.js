@@ -7,7 +7,7 @@ export default function MainLayoutHeader() {
         <header className="page__header">
             <section className="page__header__top">
                 <h1 className="logo">
-                    <Link to={"/"}>M &nbsp; Y &nbsp; &nbsp; B &nbsp; L &nbsp; O &nbsp; G</Link>
+                    <Link to={"/blog/"}>M &nbsp; Y &nbsp; &nbsp; B &nbsp; L &nbsp; O &nbsp; G</Link>
                 </h1>
                 <p>My Amazing Blog</p>
             </section>

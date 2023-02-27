@@ -77,7 +77,7 @@ export default function Slider({ kind }) {
         >
             {blogArticles.map(({ genre, heading, photo }) => (
                 <SwiperSlide key={heading} tag="article">
-                    <Link to={`/Genre/${genre}/${heading.split(" ").join("_")}`}>
+                    <Link to={`/blog/Genre/${genre}/${heading.split(" ").join("_")}`}>
                         <img src={photo} alt="Article" />
                     </Link>
                 </SwiperSlide>

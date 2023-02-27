@@ -22,7 +22,7 @@ export default function NavItem({ item, subMenu, footerNav, onItemChoosed }) {
     return (
         <li className="nav-item">
             <Link
-                to={`/${ref}`}
+                to={`/blog/${ref}`}
                 className={subMenu && "list"}
                 onClick={subMenu ? subMenuHandler : !footerNav && menuHandler}
             >

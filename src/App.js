@@ -15,13 +15,13 @@ export default function App() {
         <BrowserRouter>
             <MainLayout>
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/Add" element={<AddArticlePage />} />
-                    <Route path="/About" element={<AboutPage />} />
-                    <Route path="/Contact" element={<ContactPage />} />
-                    <Route path="/Genre" element={<CategoryPage />} />
-                    <Route path="/Genre/:genre" element={<GenrePage />} />
-                    <Route path="/Genre/:genre/:blogArticle" element={<BlogArticlePage />} />
+                    <Route path="/blog/" element={<HomePage />} />
+                    <Route path="/blog/Add" element={<AddArticlePage />} />
+                    <Route path="/blog/About" element={<AboutPage />} />
+                    <Route path="/blog/Contact" element={<ContactPage />} />
+                    <Route path="/blog/Genre" element={<CategoryPage />} />
+                    <Route path="/blog/Genre/:genre" element={<GenrePage />} />
+                    <Route path="/blog/Genre/:genre/:blogArticle" element={<BlogArticlePage />} />
                 </Routes>
             </MainLayout>
         </BrowserRouter>
